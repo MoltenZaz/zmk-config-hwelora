@@ -182,11 +182,11 @@
         };
 		GTAB {
             bindings = <
-	&trans   &trans    &trans    &trans    &trans   &trans                                      &trans   &trans    &trans   &trans    &trans   &trans
-    &kp TAB  &trans    &trans    &trans    &trans   &trans                                      &trans   &trans    &trans   &trans    &trans   &trans
-    &trans   &trans    &trans    &trans    &trans   &trans                                   	&trans   &trans    &trans   &trans    &trans   &trans
-    &trans   &trans    &trans    &trans    &trans   &trans 	 &trans    &trans    &trans &trans  &trans   &trans    &trans   &trans    &trans   &trans
-								 &trans    &trans   &trans   &trans    &trans    &trans &trans  &trans   &trans    &trans
+	&trans     &trans    &trans    &trans    &trans   &trans                                      &trans   &trans    &trans   &trans    &trans   &trans
+    &kp TAB    &kp T     &trans    &trans    &trans   &trans                                      &trans   &trans    &trans   &trans    &trans   &trans
+    &kp LSHIFT &kp G     &trans    &trans    &trans   &trans                                   	  &trans   &trans    &trans   &trans    &trans   &trans
+    &kp LCTRL  &kp B     &trans    &trans    &trans   &trans   &trans    &trans    &trans &trans  &trans   &trans    &trans   &trans    &trans   &trans
+								   &trans    &trans   &trans   &trans    &trans    &trans &trans  &trans   &trans    &trans
             >;
         };
 		ARROWS {
