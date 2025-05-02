@@ -250,8 +250,8 @@
 	&trans    &trans    &trans    &trans    &trans    &trans                                          	&trans &trans &trans &trans &trans &trans
     &kp LBKT  &kp RBKT  &kp LPAR  &kp RPAR  &kp LBRC  &kp RBRC                                        	&trans &trans &trans &trans &trans &trans
     &trans    &degree   &kp EQUAL &kp MINUS &kp QMARK &kp GRAVE                                       	&trans &trans &trans &trans &trans &trans
-    &trans    &cubed    &squared  &kp UNDER &kp FSLH  &kp BSLH &kp F23 &trans      &trans &trans &trans &trans &trans &trans &trans &trans
-								  &trans    &trans    &trans   &trans  &none	   &trans &trans &trans	&trans &trans
+    &trans    &cubed    &squared  &kp UNDER &kp FSLH  &kp BSLH &to GAMING &trans   &trans &trans &trans &trans &trans &trans &trans &trans
+								  &trans    &trans    &trans   &trans     &none	   &trans &trans &trans	&trans &trans
             >;
         };
 		FKEY {
