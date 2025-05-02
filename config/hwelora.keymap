@@ -28,9 +28,10 @@
 #define NAVL   11
 #define NAVR   12
 #define NAV2   13
-#define FKEY   14
-#define SETTINGS   15
-#define SETTINGS2   16
+#define SYMB   14
+#define FKEY   15
+#define SETTINGS   16
+#define SETTINGS2   17
 
 / {
     conditional_layers {
@@ -121,7 +122,7 @@
 	&kp ESC    		 &kp N1   &kp N2   &kp N3    	   &kp N4    		&kp N5                                                    &kp N6     &kp N7    		 &kp N8   &kp N9    &kp N0   &kp CAPS
     &kp TAB    		 &kp Y    &kp P    &kp O     	   &kp U     		&kp J                                                     &kp K      &kp D     	 	 &kp L    &kp C     &kp W    &kp DEL
     &kp LSHIFT 		 &kp I    &kp N    &kp E     	   &kp A     		&kp DOT                                                   &kp M      &kp H    		 &kp T    &kp S     &kp R    &kp RSHIFT
-    &lm QWERTY LCTRL &kp Q    &kp Z    &kp APOS  	   &kp COMMA 		&kp SEMI   &to DEFAULT &mo FKEY    &kp F13    &kp DEL 	  &kp B      &kp F    		 &kp G    &kp V     &kp X    &lm QWERTY RCTRL
+    &lm QWERTY LCTRL &kp Q    &kp Z    &kp APOS  	   &kp COMMA 		&kp SEMI   &to DEFAULT &mo SYMB    &kp F13    &kp DEL 	  &kp B      &kp F    		 &kp G    &kp V     &kp X    &lm QWERTY RCTRL
 									   &lm QWERTY LGUI &lm QWERTY LALT  &mo NAVL   &kp SPACE   &mo MIRROR  &mo NAVR   &kp BSPC    &kp RET    &lm QWERTY RALT &kp K_APP
             >;
         };
@@ -242,6 +243,15 @@
     &trans    &kp LC(LG(N0))    &kp LC(LG(N4))    &kp LC(LG(N5))    &kp LC(LG(N6))   &trans                                     	 &trans    &kp LC(LG(N4))    &kp LC(LG(N5))    &kp LC(LG(N6))   &kp LC(LG(N0)) &trans    
     &trans    &trans    		&kp LC(LG(N1))    &kp LC(LG(N2))    &kp LC(LG(N3))   &trans &tog QWERTY &trans    &trans &tog QWERTY &trans    &kp LC(LG(N1))    &kp LC(LG(N2))    &kp LC(LG(N3))   &trans  		 &trans    
 												  &trans    		&trans   		 &trans &trans      &trans    &trans &trans  	 &trans    &trans    		 &trans
+            >;
+        };
+		SYMB {
+            bindings = <
+	&trans    &trans    &trans    &trans    &trans    &trans                                          	&trans &trans &trans &trans &trans &trans
+    &kp LBKT  &kp RBKT  &kp LPAR  &kp RPAR  &kp LBRC  &kp RBRC                                        	&trans &trans &trans &trans &trans &trans
+    &trans    &degree   &kp EQUAL &kp MINUS &kp QMARK &kp GRAVE                                       	&trans &trans &trans &trans &trans &trans
+    &trans    &cubed    &squared  &kp UNDER &kp FSLH  &kp BSLH &kp F23 &trans      &trans &trans &trans &trans &trans &trans &trans &trans
+								  &trans    &trans    &trans   &trans  &none	   &trans &trans &trans	&trans &trans
             >;
         };
 		FKEY {
