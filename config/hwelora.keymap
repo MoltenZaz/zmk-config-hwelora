@@ -257,7 +257,7 @@
 		FKEY {
             bindings = <
 	&trans     &trans    &kp F10   &kp F11   &kp F12  &kp F13                                   	       &kp F13   &kp F10   &kp F11   &kp F12   &kp F13  &trans
-    &trans     &kp F10   &kp F7    &kp F8    &kp F9   &kp F13                                    	       &kp F13   &kp F7    &kp F8    &kp F9    &kp F10  &trans
+    &kp LALT   &kp F10   &kp F7    &kp F8    &kp F9   &kp F13                                    	       &kp F13   &kp F7    &kp F8    &kp F9    &kp F10  &trans
     &kp LSHIFT &kp F11   &kp F4    &kp F5    &kp F6   &kp PG_UP                                    	       &kp HOME  &kp F4    &kp F5    &kp F6    &kp F11  &trans
     &trans     &kp F12   &kp F1    &kp F2    &kp F3   &kp PG_DN &to GAMING   &trans    &trans &to DEFAULT  &kp END   &kp F1    &kp F2    &kp F3    &kp F12  &trans
 								   &trans    &trans   &trans    &mo SETTINGS &none     &trans &mo SETTINGS &trans    &trans    &trans
