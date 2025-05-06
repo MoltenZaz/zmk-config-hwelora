@@ -1,1 +1,0 @@
-zephyr_library_sources(src/hid_to_layer.c)
