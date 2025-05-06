@@ -18,10 +18,10 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_ble
-    shield: hwelora_left
-  - board: seeeduino_xiao_ble
-    shield: hwelora_right
+  # - board: seeeduino_xiao_ble
+    # shield: hwelora_left
+  # - board: seeeduino_xiao_ble
+    # shield: hwelora_right
   - board: seeeduino_xiao_ble
     shield: hwelora_dongle
     # snippet: zmk-usb-logging
