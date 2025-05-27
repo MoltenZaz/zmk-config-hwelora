@@ -216,8 +216,8 @@
 		NOARROWS {
             bindings = <
 	&trans    &trans    &trans    &trans    &trans   &trans                                    &trans    &trans    &trans   &trans    &trans   &trans
-    &trans    &trans    &trans    &trans    &trans   &trans                                    &trans    &trans    &kp i    &trans    &trans   &trans
-    &trans    &trans    &trans    &trans    &trans   &trans                                    &trans    &kp j     &kp k    &kp l 	  &trans   &trans
+    &trans    &trans    &trans    &trans    &trans   &trans                                    &trans    &trans    &kp I    &trans    &trans   &trans
+    &trans    &trans    &trans    &trans    &trans   &trans                                    &trans    &kp J     &kp K    &kp L 	  &trans   &trans
     &trans    &trans    &trans    &trans    &trans   &trans &trans    &trans    &trans &trans  &trans    &trans    &trans   &trans    &trans   &trans
 								  &trans    &trans   &trans &trans    &trans    &trans &trans  &trans    &trans    &trans
             >;
