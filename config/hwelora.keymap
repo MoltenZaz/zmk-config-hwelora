@@ -91,6 +91,18 @@
 			tap-ms = <40>;
 			#binding-cells = <0>;
 			bindings
+				= <&macro_press   &kp LCTRL &LSHIFT>
+				, <&macro_tap     &kp KP_u>
+				, <&macro_release &kp LCTRL &LSHIFT>
+				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp KP_b &kp KP_N2>
+			;
+		};
+		squaredold: squaredold {
+			compatible = "zmk,behavior-macro";
+			wait-ms = <40>;
+			tap-ms = <40>;
+			#binding-cells = <0>;
+			bindings
 				= <&macro_press   &kp LALT>
 				, <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N7 &kp KP_N8>
 				, <&macro_release &kp LALT>
@@ -102,12 +114,36 @@
 			tap-ms = <40>;
 			#binding-cells = <0>;
 			bindings
+				= <&macro_press   &kp LCTRL &LSHIFT>
+				, <&macro_tap     &kp KP_u>
+				, <&macro_release &kp LCTRL &LSHIFT>
+				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp KP_b &kp KP_N3>
+				;
+		};
+		cubedold: cubedold {
+			compatible = "zmk,behavior-macro";
+			wait-ms = <40>;
+			tap-ms = <40>;
+			#binding-cells = <0>;
+			bindings
 				= <&macro_press   &kp LALT>
 				, <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N7 &kp KP_N9>
 				, <&macro_release &kp LALT>
 				;
 		};
-		degree: degree {
+        degree: degree {
+			compatible = "zmk,behavior-macro";
+			wait-ms = <40>;
+			tap-ms = <40>;
+			#binding-cells = <0>;
+			bindings
+				= <&macro_press   &kp LCTRL &LSHIFT>
+				, <&macro_tap     &kp KP_u>
+				, <&macro_release &kp LCTRL &LSHIFT>
+				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp KP_b &kp KP_N0>
+				;
+		};
+		degreeold: degreeold {
 			compatible = "zmk,behavior-macro";
 			wait-ms = <40>;
 			tap-ms = <40>;
@@ -118,7 +154,19 @@
 				, <&macro_release &kp LALT>
 				;
 		};
-		zwspc: zwspc {
+        zwspc: zwspc {
+            compatible = "zmk,behavior-macro";
+			wait-ms = <40>;
+			tap-ms = <40>;
+			#binding-cells = <0>;
+			bindings
+				= <&macro_press   &kp LCTRL &LSHIFT>
+				, <&macro_tap     &kp KP_u>
+				, <&macro_release &kp LCTRL &LSHIFT>
+				, <&macro_tap     &kp KP_N2 &kp KP_N0 &kp KP_0 &kp KP_Nb>
+				;
+		};
+		zwspcold: zwspcold {
 			compatible = "zmk,behavior-macro";
 			wait-ms = <40>;
 			tap-ms = <40>;
