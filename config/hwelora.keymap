@@ -163,7 +163,7 @@
 				= <&macro_press   &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp U>
 				, <&macro_release &kp LCTRL &kp LSHIFT>
-				, <&macro_tap     &kp KP_N2 &kp KP_N0 &kp KP_0 &kp B>
+                , <&macro_tap     &kp KP_N2 &kp KP_N0 &kp KP_N0 &kp B>
 				;
 		};
 		zwspcold: zwspcold {
