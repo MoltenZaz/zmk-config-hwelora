@@ -92,7 +92,7 @@
 			#binding-cells = <0>;
 			bindings
 				= <&macro_press   &kp LCTRL &kp LSHIFT>
-				, <&macro_tap     &kp KP_U>
+				, <&macro_tap     &kp U>
 				, <&macro_release &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp KP_b &kp KP_N2>
 			;
@@ -115,7 +115,7 @@
 			#binding-cells = <0>;
 			bindings
 				= <&macro_press   &kp LCTRL &kp LSHIFT>
-				, <&macro_tap     &kp KP_U>
+				, <&macro_tap     &kp U>
 				, <&macro_release &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp KP_b &kp KP_N3>
 				;
@@ -138,7 +138,7 @@
 			#binding-cells = <0>;
 			bindings
 				= <&macro_press   &kp LCTRL &kp LSHIFT>
-				, <&macro_tap     &kp KP_U>
+				, <&macro_tap     &kp U>
 				, <&macro_release &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp KP_b &kp KP_N0>
 				;
@@ -161,7 +161,7 @@
 			#binding-cells = <0>;
 			bindings
 				= <&macro_press   &kp LCTRL &kp LSHIFT>
-				, <&macro_tap     &kp KP_U>
+				, <&macro_tap     &kp U>
 				, <&macro_release &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp KP_N2 &kp KP_N0 &kp KP_0 &kp KP_Nb>
 				;
