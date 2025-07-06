@@ -94,7 +94,7 @@
 				= <&macro_press   &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp U>
 				, <&macro_release &kp LCTRL &kp LSHIFT>
-				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp B &kp KP_N2>
+				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp B &kp KP_N2 &kp RET>
 			;
 		};
 		squaredold: squaredold {
@@ -117,7 +117,7 @@
 				= <&macro_press   &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp U>
 				, <&macro_release &kp LCTRL &kp LSHIFT>
-				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp B &kp KP_N3>
+				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp B &kp KP_N3 &kp RET>
 				;
 		};
 		cubedold: cubedold {
@@ -140,7 +140,7 @@
 				= <&macro_press   &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp U>
 				, <&macro_release &kp LCTRL &kp LSHIFT>
-				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp B &kp KP_N0>
+				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp B &kp KP_N0 &kp RET>
 				;
 		};
 		degreeold: degreeold {
@@ -163,13 +163,13 @@
 				= <&macro_press   &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp U>
 				, <&macro_release &kp LCTRL &kp LSHIFT>
-                , <&macro_tap     &kp KP_N2 &kp KP_N0 &kp KP_N0 &kp B>
+                , <&macro_tap     &kp KP_N2 &kp KP_N0 &kp KP_N0 &kp B &kp RET>
 				;
 		};
 		zwspcold: zwspcold {
 			compatible = "zmk,behavior-macro";
 			wait-ms = <40>;
-			tap-ms = <40>;
+			tap-ms = <40>
 			#binding-cells = <0>;
 			bindings
 				= <&macro_press   &kp LALT>
