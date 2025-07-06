@@ -91,9 +91,9 @@
 			tap-ms = <40>;
 			#binding-cells = <0>;
 			bindings
-				= <&macro_press   &kp LCTRL &LSHIFT>
+				= <&macro_press   &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp KP_u>
-				, <&macro_release &kp LCTRL &LSHIFT>
+				, <&macro_release &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp KP_b &kp KP_N2>
 			;
 		};
@@ -114,9 +114,9 @@
 			tap-ms = <40>;
 			#binding-cells = <0>;
 			bindings
-				= <&macro_press   &kp LCTRL &LSHIFT>
+				= <&macro_press   &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp KP_u>
-				, <&macro_release &kp LCTRL &LSHIFT>
+				, <&macro_release &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp KP_b &kp KP_N3>
 				;
 		};
@@ -137,9 +137,9 @@
 			tap-ms = <40>;
 			#binding-cells = <0>;
 			bindings
-				= <&macro_press   &kp LCTRL &LSHIFT>
+				= <&macro_press   &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp KP_u>
-				, <&macro_release &kp LCTRL &LSHIFT>
+				, <&macro_release &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp KP_b &kp KP_N0>
 				;
 		};
@@ -160,9 +160,9 @@
 			tap-ms = <40>;
 			#binding-cells = <0>;
 			bindings
-				= <&macro_press   &kp LCTRL &LSHIFT>
+				= <&macro_press   &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp KP_u>
-				, <&macro_release &kp LCTRL &LSHIFT>
+				, <&macro_release &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp KP_N2 &kp KP_N0 &kp KP_0 &kp KP_Nb>
 				;
 		};
@@ -303,7 +303,7 @@
 	&trans    &trans    &trans    &trans    &trans    &trans                                          	  &mkp RCLK      &mkp MB4 	    &msc SCRL_UP &msc SCRL_DOWN &mkp MB5 	    &mkp RCLK
     &kp LBKT  &kp RBKT  &kp LPAR  &kp RPAR  &kp LBRC  &kp RBRC                                        	  &mkp LCLK      &mmv MOVE_LEFT &mmv MOVE_UP &mmv MOVE_DOWN &mmv MOVE_RIGHT &mkp MCLK
     &trans    &degree   &kp EQUAL &kp MINUS &kp QMARK &kp GRAVE                                       	  &kp C_VOL_UP   &kp LEFT   	&kp UP       &kp DOWN	    &kp RIGHT 	    &mt RSHIFT RET
-    &trans    &squared  &cubed    &kp UNDER &kp FSLH  &kp BSLH &kp F23 &trans      &mo FKEY &tog NOARROWS &kp C_VOL_DN   &ytmprev 	    &ytmpp 	     &ytmnext 	    &mo NAV2  	    &trans
+    &trans    &squared  &cubed    &kp UNDER &kp FSLH  &kp BSLH &zwspc  &trans      &mo FKEY &tog NOARROWS &kp C_VOL_DN   &ytmprev 	    &ytmpp 	     &ytmnext 	    &mo NAV2  	    &trans
 								  &trans    &trans    &trans   &trans  &mo FKEY	   &trans   &trans 	      &trans	     &trans     	&trans
             >;
         };
