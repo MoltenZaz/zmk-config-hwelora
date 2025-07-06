@@ -94,7 +94,7 @@
 				= <&macro_press   &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp U>
 				, <&macro_release &kp LCTRL &kp LSHIFT>
-				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp KP_b &kp KP_N2>
+				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp B &kp KP_N2>
 			;
 		};
 		squaredold: squaredold {
@@ -117,7 +117,7 @@
 				= <&macro_press   &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp U>
 				, <&macro_release &kp LCTRL &kp LSHIFT>
-				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp KP_b &kp KP_N3>
+				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp B &kp KP_N3>
 				;
 		};
 		cubedold: cubedold {
@@ -140,7 +140,7 @@
 				= <&macro_press   &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp U>
 				, <&macro_release &kp LCTRL &kp LSHIFT>
-				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp KP_b &kp KP_N0>
+				, <&macro_tap     &kp KP_N0 &kp KP_N0 &kp B &kp KP_N0>
 				;
 		};
 		degreeold: degreeold {
@@ -163,7 +163,7 @@
 				= <&macro_press   &kp LCTRL &kp LSHIFT>
 				, <&macro_tap     &kp U>
 				, <&macro_release &kp LCTRL &kp LSHIFT>
-				, <&macro_tap     &kp KP_N2 &kp KP_N0 &kp KP_0 &kp KP_Nb>
+				, <&macro_tap     &kp KP_N2 &kp KP_N0 &kp KP_0 &kp B>
 				;
 		};
 		zwspcold: zwspcold {
