@@ -300,11 +300,11 @@
 	
 		NAVR {
             bindings = <
-	&trans    &trans    &trans    &trans    &trans    &trans                                          	  &mkp RCLK      &mkp MB4 	    &msc SCRL_UP &msc SCRL_DOWN &mkp MB5 	    &mkp RCLK
-    &kp LBKT  &kp RBKT  &kp LPAR  &kp RPAR  &kp LBRC  &kp RBRC                                        	  &mkp LCLK      &mmv MOVE_LEFT &mmv MOVE_UP &mmv MOVE_DOWN &mmv MOVE_RIGHT &mkp MCLK
-    &trans    &degree   &kp EQUAL &kp MINUS &kp QMARK &kp GRAVE                                       	  &kp C_VOL_UP   &kp LEFT   	&kp UP       &kp DOWN	    &kp RIGHT 	    &mt RSHIFT RET
-    &trans    &squared  &cubed    &kp UNDER &kp FSLH  &kp BSLH &kp F23 &trans      &mo FKEY &tog NOARROWS &kp C_VOL_DN   &ytmprev 	    &ytmpp 	     &ytmnext 	    &mo NAV2  	    &trans
-								  &trans    &trans    &trans   &trans  &mo FKEY	   &trans   &trans 	      &trans	     &trans     	&trans
+	&trans    &trans      &trans      &trans    &trans    &trans                                          	  &mkp RCLK      &mkp MB4 	    &msc SCRL_UP &msc SCRL_DOWN &mkp MB5 	    &mkp RCLK
+    &kp LBKT  &kp RBKT    &kp LPAR    &kp RPAR  &kp LBRC  &kp RBRC                                        	  &mkp LCLK      &mmv MOVE_LEFT &mmv MOVE_UP &mmv MOVE_DOWN &mmv MOVE_RIGHT &mkp MCLK
+    &trans    &kp LS(F23) &kp EQUAL   &kp MINUS &kp QMARK &kp GRAVE                                       	  &kp C_VOL_UP   &kp LEFT   	&kp UP       &kp DOWN	    &kp RIGHT 	    &mt RSHIFT RET
+    &trans    &kp LC(F23) &kp LA(F23) &kp UNDER &kp FSLH  &kp BSLH &kp F23 &trans      &mo FKEY &tog NOARROWS &kp C_VOL_DN   &ytmprev 	    &ytmpp 	     &ytmnext 	    &mo NAV2  	    &trans
+									  &trans    &trans    &trans   &trans  &mo FKEY	   &trans   &trans 	      &trans	     &trans     	&trans
             >;
         };
 		NAV2 {
