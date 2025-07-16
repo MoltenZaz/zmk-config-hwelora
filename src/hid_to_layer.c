@@ -12,11 +12,11 @@ static int raw_hid_received_event_listener(const zmk_event_t *eh) {
     struct raw_hid_received_event *event = as_raw_hid_received_event(eh);
     if (event->data[0]==0) {
 		LOG_INF("display_process_raw_hid_data - received data_type %u", event->data[0]);
-		zmk_keymap_layer_to(0);
+		zmk_keymap_layer_deactivate(4);
     }
 	if (event->data[0]==1) {
 		LOG_INF("display_process_raw_hid_data - received data_type %u", event->data[0]);
-		zmk_keymap_layer_to(4);
+		zmk_keymap_layer_activate(4);
     }
 	if (event->data[0]==2) {
         LOG_INF("display_process_raw_hid_data - received data_type %u", event->data[0]);
@@ -28,7 +28,7 @@ static int raw_hid_received_event_listener(const zmk_event_t *eh) {
     }
 	if (event->data[0]==4) {
         LOG_INF("display_process_raw_hid_data - received data_type %u", event->data[0]);
-		zmk_keymap_layer_deactivate(4);
+		zmk_keymap_layer_to(0);
     }
 
     return ZMK_EV_EVENT_BUBBLE;
