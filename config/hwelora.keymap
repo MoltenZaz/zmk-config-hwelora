@@ -18,20 +18,24 @@
 #define LNPAD	1
 #define SFTSWAP 2
 #define QWERTY   3
-#define GAMING   4
-#define MIRROR   5
-#define QMIR   6
-#define GTAB   7
-#define NOARROWS   8
-#define ARACTV   9
-#define ARROWL   10
-#define NAVL   11
-#define NAVR   12
-#define NAV2   13
-#define SYMB   14
-#define FKEY   15
-#define SETTINGS   16
-#define SETTINGS2   17
+#define QWERTY   4
+#define QWERTY   5
+#define QWERTY   6
+#define QWERTY   7
+#define GAMING   8
+#define MIRROR   9
+#define QMIR   10
+#define GTAB   11
+#define NOARROWS   12
+#define ARACTV   13
+#define ARROWL   14
+#define NAVL   15
+#define NAVR   16
+#define NAV2   17
+#define SYMB   18
+#define FKEY   19
+#define SETTINGS   20
+#define SETTINGS2   21
 
 / {
     behaviors {
@@ -82,7 +86,10 @@
 				, <&macro_param_2to1>
 				, <&macro_release &kp MACRO_PLACEHOLDER>
 				, <&macro_param_1to1>
-				, <&macro_release &mo MACRO_PLACEHOLDER>
+				// if all modifiers are released
+					, <&macro_release &mo MACRO_PLACEHOLDER>
+				// else
+				// return
 				;
 		};
 		squared: squared {
@@ -193,8 +200,8 @@
 	&kp ESC    		 &kp N1   &kp N2   &kp N3    	   &kp N4    		&kp N5                                                    &kp N6     &kp N7    		 &kp N8   &kp N9    &kp N0   &kp CAPS
     &kp TAB    		 &kp Y    &kp P    &kp O     	   &kp U     		&kp J                                                     &kp K      &kp D     	 	 &kp L    &kp C     &kp W    &kp DEL
     &kp LSHIFT 		 &kp I    &kp N    &kp E     	   &kp A     		&kp DOT                                                   &kp M      &kp H    		 &kp T    &kp S     &kp R    &kp RSHIFT
-    &lm QWERTY LCTRL &kp Q    &kp Z    &kp APOS  	   &kp COMMA 		&kp SEMI   &to DEFAULT &mo SYMB    &kp F13    &kp DEL 	  &kp B      &kp F    		 &kp G    &kp V     &kp X    &lm QWERTY RCTRL
-									   &lm QWERTY LGUI &lm QWERTY LALT  &mo NAVL   &kp SPACE   &mo MIRROR  &mo NAVR   &kp BSPC    &kp RET    &lm QWERTY RALT &kp K_APP
+    &lm QWERTY1 LCTRL &kp Q    &kp Z    &kp APOS  	   &kp COMMA 		&kp SEMI   &to DEFAULT &mo SYMB    &kp F13    &kp DEL 	  &kp B      &kp F    		 &kp G    &kp V     &kp X    &lm QWERTY5 RCTRL
+									   &lm QWERTY2 LGUI &lm QWERTY3 LALT  &mo NAVL   &kp SPACE   &mo MIRROR  &mo NAVR   &kp BSPC    &kp RET    &lm QWERTY4 RALT &kp K_APP
             >;
         };
 		
@@ -216,7 +223,43 @@
 								   &trans    &trans   &kp LSHIFT &trans    &trans    &trans &trans  &kp RSHIFT &trans    &trans
             >;
         };
-		QWERTY {
+		QWERTY1 {
+            bindings = <
+	&trans     &trans   &trans   &trans    &trans    &trans                                          &trans    &trans    &trans    &trans    &trans   &trans
+    &trans     &kp Q    &kp W    &kp E     &kp R     &kp T                                           &kp Y     &kp U     &kp I     &kp O     &kp P    &trans
+    &kp LSHIFT &kp A    &kp S    &kp D     &kp F     &kp G                                           &kp H     &kp J     &kp K     &kp L     &kp SEMI &mt RSHIFT RET
+    &kp LCTRL  &kp Z    &kp X    &kp C     &kp V 	 &kp B      &trans   &trans    &trans   &trans   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
+                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &trans
+            >;
+        };
+		QWERTY2 {
+            bindings = <
+	&trans     &trans   &trans   &trans    &trans    &trans                                          &trans    &trans    &trans    &trans    &trans   &trans
+    &trans     &kp Q    &kp W    &kp E     &kp R     &kp T                                           &kp Y     &kp U     &kp I     &kp O     &kp P    &trans
+    &kp LSHIFT &kp A    &kp S    &kp D     &kp F     &kp G                                           &kp H     &kp J     &kp K     &kp L     &kp SEMI &mt RSHIFT RET
+    &kp LCTRL  &kp Z    &kp X    &kp C     &kp V 	 &kp B      &trans   &trans    &trans   &trans   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
+                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &trans
+            >;
+        };
+		QWERTY3 {
+            bindings = <
+	&trans     &trans   &trans   &trans    &trans    &trans                                          &trans    &trans    &trans    &trans    &trans   &trans
+    &trans     &kp Q    &kp W    &kp E     &kp R     &kp T                                           &kp Y     &kp U     &kp I     &kp O     &kp P    &trans
+    &kp LSHIFT &kp A    &kp S    &kp D     &kp F     &kp G                                           &kp H     &kp J     &kp K     &kp L     &kp SEMI &mt RSHIFT RET
+    &kp LCTRL  &kp Z    &kp X    &kp C     &kp V 	 &kp B      &trans   &trans    &trans   &trans   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
+                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &trans
+            >;
+        };
+		QWERTY4 {
+            bindings = <
+	&trans     &trans   &trans   &trans    &trans    &trans                                          &trans    &trans    &trans    &trans    &trans   &trans
+    &trans     &kp Q    &kp W    &kp E     &kp R     &kp T                                           &kp Y     &kp U     &kp I     &kp O     &kp P    &trans
+    &kp LSHIFT &kp A    &kp S    &kp D     &kp F     &kp G                                           &kp H     &kp J     &kp K     &kp L     &kp SEMI &mt RSHIFT RET
+    &kp LCTRL  &kp Z    &kp X    &kp C     &kp V 	 &kp B      &trans   &trans    &trans   &trans   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
+                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &trans
+            >;
+        };
+		QWERTY5 {
             bindings = <
 	&trans     &trans   &trans   &trans    &trans    &trans                                          &trans    &trans    &trans    &trans    &trans   &trans
     &trans     &kp Q    &kp W    &kp E     &kp R     &kp T                                           &kp Y     &kp U     &kp I     &kp O     &kp P    &trans
