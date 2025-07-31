@@ -17,11 +17,11 @@
 #define DEFAULT 0
 #define LNPAD	1
 #define SFTSWAP 2
-#define QWERTY   3
-#define QWERTY   4
-#define QWERTY   5
-#define QWERTY   6
-#define QWERTY   7
+#define QWERTY1   3
+#define QWERTY2   4
+#define QWERTY3   5
+#define QWERTY4   6
+#define QWERTY5   7
 #define GAMING   8
 #define MIRROR   9
 #define QMIR   10
