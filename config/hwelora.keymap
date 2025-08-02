@@ -200,8 +200,8 @@
 	&kp ESC    		 &kp N1   &kp N2   &kp N3    	   &kp N4    		&kp N5                                                    &kp N6     &kp N7    		 &kp N8   &kp N9    &kp N0   &kp CAPS
     &kp TAB    		 &kp Y    &kp P    &kp O     	   &kp U     		&kp J                                                     &kp K      &kp D     	 	 &kp L    &kp C     &kp W    &kp DEL
     &kp LSHIFT 		 &kp I    &kp N    &kp E     	   &kp A     		&kp DOT                                                   &kp M      &kp H    		 &kp T    &kp S     &kp R    &kp RSHIFT
-    &lm QWERTY1 LCTRL &kp Q    &kp Z    &kp APOS  	   &kp COMMA 		&kp SEMI   &to DEFAULT &mo SYMB    &kp F13    &kp DEL 	  &kp B      &kp F    		 &kp G    &kp V     &kp X    &lm QWERTY5 RCTRL
-									   &lm QWERTY2 LGUI &lm QWERTY3 LALT  &mo NAVL   &kp SPACE   &mo MIRROR  &mo NAVR   &kp BSPC    &kp RET    &lm QWERTY4 RALT &kp K_APP
+    &lm QWERTY1 LCTRL &kp Q    &kp Z    &kp APOS  	   &kp COMMA 		&kp SEMI   &to DEFAULT &mo SYMB    &kp F13    &kp DEL 	  &kp B      &kp F    		 &kp G    &kp V     &kp X    &lm QWERTY1 RCTRL
+									   &lm QWERTY1 LGUI &lm QWERTY1 LALT  &mo NAVL   &kp SPACE   &mo MIRROR  &mo NAVR   &kp BSPC    &kp RET    &lm QWERTY1 RALT &kp K_APP
             >;
         };
 		
@@ -270,7 +270,7 @@
         };
 		GAMING {
             bindings = <
-	&kp ESC &kp N5     &kp N1   &kp N2    &kp N3    	 &kp N4                                        &trans    &trans    &trans    &trans    &trans   &trans
+	&kp ESC &kp N1     &kp N2   &kp N3    &kp N4    	 &kp N5                                        &trans    &trans    &trans    &trans    &trans   &trans
     &kp T   &kp TAB    &kp Q    &kp W     &kp E     	 &kp R                                         &kp Y     &kp U     &kp UP    &kp O     &kp P    &trans
     &kp G   &kp LSHIFT &kp A	&kp S     &kp D    	 	 &kp F                                         &kp H     &kp LEFT  &kp DOWN  &kp RIGHT &kp SEMI &trans
     &kp B   &kp LCTRL  &kp Z    &kp X     &kp C     	 &kp V    &trans   &trans    &trans   &trans   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
