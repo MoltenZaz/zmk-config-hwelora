@@ -22,20 +22,21 @@
 #define QWERTY3   5
 #define QWERTY4   6
 #define QWERTY5   7
-#define GAMING   8
-#define MIRROR   9
-#define QMIR   10
-#define GTAB   11
-#define NOARROWS   12
-#define ARACTV   13
-#define ARROWL   14
-#define NAVL   15
-#define NAVR   16
-#define NAV2   17
-#define SYMB   18
-#define FKEY   19
-#define SETTINGS   20
-#define SETTINGS2   21
+#define QWERTY6   8
+#define GAMING   9
+#define MIRROR   10
+#define QMIR   11
+#define GTAB   12
+#define NOARROWS   13
+#define ARACTV   14
+#define ARROWL   15
+#define NAVL   16
+#define NAVR   17
+#define NAV2   18
+#define SYMB   19
+#define FKEY   20
+#define SETTINGS   21
+#define SETTINGS2   22
 
 / {
     behaviors {
@@ -200,8 +201,8 @@
 	&kp ESC    		 &kp N1   &kp N2   &kp N3    	   &kp N4    		&kp N5                                                    &kp N6     &kp N7    		 &kp N8   &kp N9    &kp N0   &kp CAPS
     &kp TAB    		 &kp Y    &kp P    &kp O     	   &kp U     		&kp J                                                     &kp K      &kp D     	 	 &kp L    &kp C     &kp W    &kp DEL
     &kp LSHIFT 		 &kp I    &kp N    &kp E     	   &kp A     		&kp DOT                                                   &kp M      &kp H    		 &kp T    &kp S     &kp R    &kp RSHIFT
-    &lm QWERTY1 LCTRL &kp Q    &kp Z    &kp APOS  	   &kp COMMA 		&kp SEMI   &to DEFAULT &mo SYMB    &kp F13    &kp DEL 	  &kp B      &kp F    		 &kp G    &kp V     &kp X    &lm QWERTY5 RCTRL
-									   &lm QWERTY2 LGUI &lm QWERTY3 LALT  &mo NAVL   &kp SPACE   &mo MIRROR  &mo NAVR   &kp BSPC    &kp RET    &lm QWERTY4 RALT &kp K_APP
+    &lm QWERTY1 LCTRL &kp Q    &kp Z    &kp APOS  	   &kp COMMA 		&kp SEMI   &to DEFAULT &mo SYMB    &kp F13    &kp DEL 	  &kp B      &kp F    		 &kp G    &kp V     &kp X    &lm QWERTY6 RCTRL
+									   &lm QWERTY2 LGUI &lm QWERTY3 LALT  &mo NAVL   &kp SPACE   &mo MIRROR  &mo NAVR   &kp BSPC    &kp RET    &lm QWERTY4 RALT &lm QWERTY5 LGUI
             >;
         };
 		
@@ -229,7 +230,7 @@
     &trans     &kp Q    &kp W    &kp E     &kp R     &kp T                                           &kp Y     &kp U     &kp I     &kp O     &kp P    &trans
     &kp LSHIFT &kp A    &kp S    &kp D     &kp F     &kp G                                           &kp H     &kp J     &kp K     &kp L     &kp SEMI &mt RSHIFT RET
     &kp LCTRL  &kp Z    &kp X    &kp C     &kp V 	 &kp B      &trans   &trans    &trans   &trans   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
-                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &trans
+                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &kp RGUI
             >;
         };
 		QWERTY2 {
@@ -238,7 +239,7 @@
     &trans     &kp Q    &kp W    &kp E     &kp R     &kp T                                           &kp Y     &kp U     &kp I     &kp O     &kp P    &trans
     &kp LSHIFT &kp A    &kp S    &kp D     &kp F     &kp G                                           &kp H     &kp J     &kp K     &kp L     &kp SEMI &mt RSHIFT RET
     &kp LCTRL  &kp Z    &kp X    &kp C     &kp V 	 &kp B      &trans   &trans    &trans   &trans   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
-                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &trans
+                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &kp RGUI
             >;
         };
 		QWERTY3 {
@@ -247,7 +248,7 @@
     &trans     &kp Q    &kp W    &kp E     &kp R     &kp T                                           &kp Y     &kp U     &kp I     &kp O     &kp P    &trans
     &kp LSHIFT &kp A    &kp S    &kp D     &kp F     &kp G                                           &kp H     &kp J     &kp K     &kp L     &kp SEMI &mt RSHIFT RET
     &kp LCTRL  &kp Z    &kp X    &kp C     &kp V 	 &kp B      &trans   &trans    &trans   &trans   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
-                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &trans
+                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &kp RGUI
             >;
         };
 		QWERTY4 {
@@ -256,7 +257,7 @@
     &trans     &kp Q    &kp W    &kp E     &kp R     &kp T                                           &kp Y     &kp U     &kp I     &kp O     &kp P    &trans
     &kp LSHIFT &kp A    &kp S    &kp D     &kp F     &kp G                                           &kp H     &kp J     &kp K     &kp L     &kp SEMI &mt RSHIFT RET
     &kp LCTRL  &kp Z    &kp X    &kp C     &kp V 	 &kp B      &trans   &trans    &trans   &trans   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
-                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &trans
+                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &kp RGUI
             >;
         };
 		QWERTY5 {
@@ -265,7 +266,16 @@
     &trans     &kp Q    &kp W    &kp E     &kp R     &kp T                                           &kp Y     &kp U     &kp I     &kp O     &kp P    &trans
     &kp LSHIFT &kp A    &kp S    &kp D     &kp F     &kp G                                           &kp H     &kp J     &kp K     &kp L     &kp SEMI &mt RSHIFT RET
     &kp LCTRL  &kp Z    &kp X    &kp C     &kp V 	 &kp B      &trans   &trans    &trans   &trans   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
-                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &trans
+                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &kp RGUI
+            >;
+        };
+        QWERTY6 {
+            bindings = <
+	&trans     &trans   &trans   &trans    &trans    &trans                                          &trans    &trans    &trans    &trans    &trans   &trans
+    &trans     &kp Q    &kp W    &kp E     &kp R     &kp T                                           &kp Y     &kp U     &kp I     &kp O     &kp P    &trans
+    &kp LSHIFT &kp A    &kp S    &kp D     &kp F     &kp G                                           &kp H     &kp J     &kp K     &kp L     &kp SEMI &mt RSHIFT RET
+    &kp LCTRL  &kp Z    &kp X    &kp C     &kp V 	 &kp B      &trans   &trans    &trans   &trans   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
+                                 &kp LGUI  &trans    &kp LSHIFT &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &kp RGUI
             >;
         };
 		GAMING {
@@ -274,7 +284,7 @@
     &kp T   &kp TAB    &kp Q    &kp W     &kp E     	 &kp R                                         &kp Y     &kp U     &kp UP    &kp O     &kp P    &trans
     &kp G   &kp LSHIFT &kp A	&kp S     &kp D    	 	 &kp F                                         &kp H     &kp LEFT  &kp DOWN  &kp RIGHT &kp SEMI &trans
     &kp B   &kp LCTRL  &kp Z    &kp X     &kp C     	 &kp V    &trans   &trans    &trans   &trans   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
-                                &kp K_APP &lm GTAB LALT  &mo NAVL &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &trans
+                                &none     &lm GTAB LALT  &mo NAVL &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &none
             >;
         };
 		MIRROR {
@@ -291,8 +301,8 @@
 	&kp CAPS   	   &kp N0   &kp N9   &kp N8    &kp N7   &kp N6                                            &trans    &trans    &trans    &trans    &trans   &trans
     &kp DEL		   &kp P    &kp O    &kp I     &kp U    &kp Y                                             &trans    &trans    &trans    &trans    &trans   &trans
     &mt RSHIFT RET &kp SEMI &kp L    &kp K     &kp J    &kp H                                             &trans    &trans    &trans    &trans    &trans   &trans
-    &kp RCTRL	   &kp FSLH &kp DOT  &kp COMMA &kp M    &kp N    &trans  &trans    &tog NOARROWS &kp F14  &trans    &trans    &trans    &trans    &trans   &trans
-								     &kp K_APP &kp RALT &kp BSPC &trans  &trans    &trans        &trans   &trans    &trans    &trans
+    &kp RCTRL	   &kp FSLH &kp DOT  &kp COMMA &kp M    &kp N    &trans  &mo FKEY  &tog NOARROWS &kp F14  &trans    &trans    &trans    &trans    &trans   &trans
+								     &kp RGUI  &kp RALT &kp BSPC &trans  &trans    &trans        &trans   &trans    &trans    &trans
             >;
         };
 		GTAB {
