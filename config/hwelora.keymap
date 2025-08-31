@@ -320,7 +320,7 @@
     &trans    &trans    &trans    &trans    &trans   &trans                                    &trans    &trans    &kp I    &trans    &trans   &trans
     &trans    &trans    &trans    &trans    &trans   &trans                                    &trans    &kp J     &kp K    &kp L 	  &trans   &trans
     &trans    &trans    &trans    &trans    &trans   &trans &trans    &trans    &trans &trans  &trans    &trans    &trans   &trans    &trans   &trans
-								  &trans    &trans   &trans &trans    &trans    &trans &trans  &trans    &trans    &trans
+								  &trans    &trans   &trans &trans    &trans    &kp N1 &kp N2  &kp N3    &trans    &trans
             >;
         };
 		ARACTV {
