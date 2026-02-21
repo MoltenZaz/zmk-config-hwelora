@@ -284,7 +284,7 @@
     &kp T   &kp TAB    &kp Q    &kp W     &kp E     	 &kp R                                         &kp Y     &kp U     &kp UP    &kp O     &kp P    &trans
     &kp G   &kp LSHIFT &kp A	&kp S     &kp D    	 	 &kp F                                         &kp H     &kp LEFT  &kp DOWN  &kp RIGHT &kp SEMI &trans
     &kp B   &kp LCTRL  &kp Z    &kp X     &kp C     	 &kp V    &trans   &trans    &trans   &trans   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
-                                &none     &lm GTAB LALT  &mo NAVL &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &none
+                                &kp K_APP &lm GTAB LALT  &mo NAVL &trans   &mo QMIR  &trans   &trans   &trans    &kp RALT  &none
             >;
         };
 		MIRROR {
